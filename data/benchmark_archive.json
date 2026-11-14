@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "filename": "conebound-benchmarks-v1.0.0.zip",
+  "top_level_directory": "conebound-benchmarks-v1.0.0",
+  "size_bytes": 471477710,
+  "sha256": "d6fedc740d6816eff30c551c5f63b4a00cd4b921f74d79ee96f72d517c25dff4",
+  "manifest_sha256": "2df2e1fbc43f95c56887d93f2d706c8a07e2bd3c11d487299a9a449214adbad2",
+  "original_scientific_commit": "6c5ed00fdc02a106526ab6c6a99cf2934c885952",
+  "corrected_scientific_commit": "378ebbac0919dc2edfdf2b8223e88c1bfbaa1217",
+  "status": "Frozen benchmark evidence v1.0.0; distributed separately as a GitHub release asset. No DOI assigned."
+}

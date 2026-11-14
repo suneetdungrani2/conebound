@@ -1,0 +1,34 @@
+{
+  "excluded_timing_rows": {
+    "B1": 360,
+    "M1": 6300,
+    "M2": 360
+  },
+  "figure_data_sha256": "4330afa5644f2378039a45e4021739acf5efa1084ed3439aa1c3786effc7576e",
+  "limits": [
+    "Other scalar-containment outcomes are unknown, not successes.",
+    "Rounded-set separations do not imply exact source-set separations.",
+    "M1 coefficients are numerical; no efficiency improvement is demonstrated."
+  ],
+  "outputs_sha256": {
+    "scalar_failure_map.pdf": "4eac61cd6b7f5a17725b6a8d4f2092442a1c50a41fec05bcf72f28372131f842",
+    "scalar_failure_map.png": "7bf3db4900a38f56b9923e01e6e9cbf8ae1a7d5500ea9c74f3e1354d296d483a",
+    "spectral_geometry.pdf": "b4dfa511bf36e3fe912a4a327376f39b0ff98f8f921a4de75c831813662105b7",
+    "spectral_geometry.png": "dcec02186da4206e4293b35cdab647931356edfcd61c090d4589da733dc654e2",
+    "width_runtime.pdf": "1e65c8d8a188d1eeb85f49f657b62eec52886443ae66e372418833233b8d10d0",
+    "width_runtime.png": "bedba7bfab085aeb7816fb158e824d4cbf75d6b0518d1dd8f002b807ec0b244f"
+  },
+  "scatter_aggregation": "Per row: median of directional width ratios. Per base: medians over all retained level/repeat rows. This descriptive plot differs from nested primary cost aggregation.",
+  "source_sha256": {
+    "analysis/base_failure_summary.json": "4136b40aa49421754d9c836123c43a9c3841ad939b04be5b21c78e0a5f1c02b3",
+    "analysis/cohort_comparison.json": "a3b1356cf73d64e80e503f797d094f1a16e3fd16e7bff0ca3c0b3ba5812b2d87",
+    "analysis/summary.json": "1f4565c6a37554facd8adcbd677a4f851397b33ae62150df6217e1f085426943",
+    "configs/frozen_plan.json": "bc3003d072f0d411f4c71261d7cbca6ea32ecbafc4670882574af155daadc3a5",
+    "data/analytic.jsonl": "8b2e487ecf807d74278f499a5afe0affc31d5133136fc8bb48b8004ee85f0ef9",
+    "data/bank_manifest.json": "488d258143e5f7fedf737df329e88bbabd66400decd079d0b6b101a3e81474b5",
+    "data/test.jsonl": "35b77d00cd1c480d81f9e0d7463e39e744c68acf6fd6913d1ca21b6b0f0e6eb1",
+    "results/analytic/raw.jsonl": "b5db2413a083549b8304d6ad1cac81851174e1439e2b7106e5b5168ba3c55fea",
+    "results/test/raw.jsonl": "5d2bff541e6df164df95cca5252fdc8b3dca6fa3a3a9ee525aaae875f10b9899",
+    "results/test/timing.jsonl": "8c4c53562504a71b15e0ab74ea7681bc1ee11c2b2b2a6dbd08be646e1a71850e"
+  }
+}
