@@ -2,6 +2,9 @@
 
 Research source: https://github.com/suneetdungrani2/conebound.
 The accompanying paper is an unreviewed technical manuscript.
+Latest corrected manuscript: [v1.0.1](https://github.com/suneetdungrani2/conebound/releases/tag/v1.0.1).
+The [original v1.0.0](https://github.com/suneetdungrani2/conebound/releases/tag/v1.0.0) preserves the original paper and unchanged benchmark archive.
+Zenodo record: [10.5281/zenodo.24217187](https://doi.org/10.5281/zenodo.24217187); manuscript file synchronization is pending.
 
 Can one scalar per vector-valued Lorentz-cone contact represent the error
 between a log-barrier-smoothed optimizer and its hard-constrained limit?

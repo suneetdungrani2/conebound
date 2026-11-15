@@ -3,6 +3,7 @@
 \usepackage{amsmath,amssymb,graphicx,booktabs,longtable}
 \usepackage[margin=0.9in]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
 \title{A Counterexample to Scalar Smoothing-Error Representations\\in Lorentz-Cone Contact Models}
 \author{Suneet Dungrani\\Independent Researcher\\\texttt{suneetdungrani@utexas.edu}}
 \date{FORGE-CONEBOUND\\November 2026}
@@ -113,10 +114,11 @@ F5 & 48 & 0 & 39 & 9 & 0 & 48 \\
 \bottomrule\end{tabular}\end{center}
 The base-frequency table reports any B2 miss across the six nested levels. Known misses form a lower bound; adding unknown bases gives the upper identification bound. Counts outside the source assumption do not refute that assumption-restricted theorem. These are properties of the declared synthetic generator, rather than estimates of robot failures.
 
-\begin{figure}[t]\centering
+\begin{figure}[!htbp]\centering
 \includegraphics[width=.9\linewidth]{figures/scalar_failure_map.pdf}
 \caption{Known separations from rounded scalar implementation sets. Other outcomes remain undecided for rigorous containment. Source eligibility is tracked separately; coupled examples alone do not refute an independent-contact theorem.}
 \end{figure}
+\FloatBarrier
 
 The efficiency threshold requires at least 25\% median paired savings with a 95\% lower bootstrap bound above 10\%, matched validation/accuracy, no certificate errors, and an equal-family, equal-base mean fraction of at least 95\% of paired directional width ratios no larger than 1.25. Neither alternative met the complete predefined efficiency criterion; no efficiency improvement is claimed. Undefined widths and missing comparisons remain explicit rather than being clipped.
 
@@ -126,20 +128,25 @@ M1 & undecided & undecided & undecided & not established \\
 M2 & undecided & undecided & undecided & not established \\
 \bottomrule\end{tabular}\end{center}
 
-\begin{figure}[t]\centering
+\begin{figure}[!htbp]\centering
 \includegraphics[width=.8\linewidth]{figures/width_runtime.pdf}
 \caption{Recorded full cost--width tradeoff by base problem. M1 has numerical coefficients. Undefined/non-operational points and all method statuses are accounted for in the tables and figure manifest.}
 \end{figure}
 
+\FloatBarrier
 \section{Limitations and interpretation}
 The exact counterexample establishes failure of the stated scalar representation on the written fixed-conic model. It does not establish an error rate for real robots, invalidate every reported experiment, certify a nonlinear rollout, or resolve contact-model fidelity. No source robot binary, simulator rollout or physical experiment was executed. No universal anisotropic spectral repair is proved. Exact rational arithmetic certifies the supplied coefficients and grows costly with size; high precision alone is not validation. The optional cone-intersection diagnostic produces numerical support estimates and retains the original rigorous ellipsoid bounds.
 
 The declared generator and small dense dimensions limit empirical generality. The source's actual float implementation was not compiled; rounded-set experiments use an independent implementation of its inspected equations. The bounded literature review cannot establish priority over all equivalent formulations. No broad new safe-region theorem or unqualified efficiency claim follows from this work.
 
 \section{Reproducibility and Data Availability}
-The benchmark archive \texttt{conebound-benchmarks-v1.0.0.zip} is a separate asset of the v1.0.0 release at \url{https://github.com/suneetdungrani2/conebound/releases/tag/v1.0.0}; it is not included in Git source or this PDF.
-The versioned benchmark supplement retains frozen matrices, seeds, configurations, source/PDF hashes, code identities, raw attempts, certificate replay summaries, bootstrap indices and environment/dependency records. The accompanying repository reproduces the exact scalar inequality, replays a recorded rational certificate, and regenerates the scientific figures from the supplied frozen plot data. The supplement provides the full raw outcomes, failed attempts, protocol changes, scientific source snapshots, hashes and environment information. The repository checks the analytical construction and replays recorded certificates; it reconstructs summaries from frozen raw outputs and regenerates figures from saved plotting data. These operations do not rerun the complete timing benchmark or execute the original researchers' implementation.
+The source code, verification scripts, and manuscript materials are available in the \href{https://github.com/suneetdungrani2/conebound}{CONEBOUND repository}.
 
+The complete benchmark archive, \texttt{conebound-benchmarks-v1.0.0.zip}, is available through the \href{https://github.com/suneetdungrani2/conebound/releases/tag/v1.0.0}{v1.0.0 GitHub Release}. The archive contains frozen problem instances, experimental configurations, raw outcomes, unsuccessful attempts, certificate records, bootstrap indices, source hashes, and computational environment information.
+
+The repository supports verification of the analytical counterexample, replay of recorded certificates, and reconstruction of reported figures and summaries from archived data. The complete timing experiments and Li and Chou's original implementation were not rerun.
+
+\FloatBarrier
 \bibliographystyle{plain}
 \bibliography{references}
 \end{document}

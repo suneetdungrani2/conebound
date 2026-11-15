@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the accompanying unreviewed technical manuscript."
 type: software
 title: "CONEBOUND: reproducibility code and data for a scalar smoothing-error counterexample"
-version: 1.0.0
+version: 1.0.1
 authors:
   - family-names: Dungrani
     given-names: Suneet
@@ -17,5 +17,6 @@ preferred-citation:
       email: suneetdungrani@utexas.edu
       affiliation: Independent Researcher
   year: 2026
+  doi: "10.5281/zenodo.24217187"
   notes: "FORGE-CONEBOUND; unreviewed technical manuscript."
 repository-code: "https://github.com/suneetdungrani2/conebound"
